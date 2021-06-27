@@ -141,12 +141,11 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/kych1985@gmail.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
+           <form action="https://formspree.io/f/{form_id}" method="post">
+              <label for="email">kych1985@gmail.com</label>
+  	      <input name="Email" id="email" type="email">
+ 	      <button type="submit">Submit</button>
+	   </form>
         </div>
         <!-- End #contact-form -->
     </div>
